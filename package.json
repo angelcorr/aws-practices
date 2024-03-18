@@ -1,0 +1,20 @@
+{
+  "name": "aws-practices",
+  "version": "1.0.0",
+  "description": "A project to keep practicing about amazon web services. Here I am going to use S3 and Lambda services.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Angeles Rondon",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "prettier": "3.2.5",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.535.0"
+  }
+}
